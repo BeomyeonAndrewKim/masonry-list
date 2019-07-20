@@ -1,0 +1,18 @@
+.siba-list {
+  width: 80%;
+  margin: 0 auto;
+  overflow-y: auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1rem;
+  & img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .siba-list {
+    display: block;
+  }
+}
